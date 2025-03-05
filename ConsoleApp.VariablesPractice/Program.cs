@@ -11,9 +11,9 @@ userBalance = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter deposit amount");
 deposit = Convert.ToInt32(Console.ReadLine());
 userBalance = userBalance + deposit;
-Console.WriteLine($"The total in your bank account is: {userBalance}");
+Console.WriteLine($"The total in your bank account is: ${userBalance}");
 
 Console.WriteLine("Enter withdrawal amount");
 withdrawal = Convert.ToInt32(Console.ReadLine());
 userBalance = userBalance - withdrawal;
-Console.WriteLine($"The total in your bank account is: {userBalance}");
+Console.WriteLine($"The total in your bank account is: ${userBalance}");
